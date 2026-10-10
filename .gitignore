@@ -1,0 +1,34 @@
+# MATLAB .gitignore
+# Autosave files
+*.asv
+*.m~
+*.slx~
+*.mdl~
+
+# MATLAB cache
+*.mat
+!*.mat
+
+# MEX compiled files
+*.mexw32
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.mex
+
+# Simulink
+slprj/
+sccprj/
+*.slxc
+*.sldd
+*.mltbx
+*.mlappinstall
+
+# Log and output
+*.log
+output/
+results/
+
+# OS junk
+.DS_Store
+Thumbs.db
